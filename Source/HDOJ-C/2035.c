@@ -6,8 +6,7 @@ int main(void){
 		t = 1;
 		while(b--){
 			t *= a;
-			if(t >= 1000)
-				t %= 1000;
+			t %= 1000;
 		}
 		printf("%d\n", t);
 	}
