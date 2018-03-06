@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void){
-	int a, m, n;
-	long long num[50], i;
+	int a, m, n, i;
+	long long num[50];
 	num[0] = 1, num[1] = 2;
 	while(scanf("%d", &a) != EOF){
 		while(a--){
